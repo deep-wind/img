@@ -17,3 +17,5 @@ except requests.exceptions.ConnectionError:
     print("Starting the API")
     cmd = ["uvicorn", "api:app"]
     subprocess.Popen(cmd, close_fds=True)
+    print("hiiiii fromm start_api")
+    print(subprocess.Popen(cmd, close_fds=True))
